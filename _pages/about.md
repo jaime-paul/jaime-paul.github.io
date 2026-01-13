@@ -1,31 +1,27 @@
 ---
 
-title: "About David Florian"
+title: "About Jaime Paul"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Jaime prides herself on an interdisciplinary design practice. Her primary areas of focus include science and technology communication, UX/UI design, and digital fabrication. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+* Vanderbilt Univeristy
+  * Major: Communicating Science and Technology
+  * Minors: Digital Fabrication, Data Science, Music, Italian
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Jaime works primarily in digital design and computation, using programming and design tools to move from concept to functional digital systems and prototypes. Jaime has experience with the following digital design, coding, and computational tools:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* Programming Languages: Java, Python, C++, C#, HTML, R
+* Design & Modeling: CAD, UX/UI design, 3D modeling, Blender, Unity
+* Creative Software: Adobe InDesign, Illustrator, Photoshop, Dimensions
 
 ## Press 
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+No publications to date
 
 <img src="/assets/img/Portfolio Picture.png" alt="David Florian" style="width:200px;"/>
