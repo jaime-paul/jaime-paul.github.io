@@ -15,8 +15,8 @@ title                    : "Jaime Paul"
 title_separator          : "-"
 subtitle                 : "Digital Fabrication Portfolio"
 name                     : &name "Jaime Paul" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
-url                      : https://davidflorianjr.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Jaime Paul Digital Fabrication Portfolio"
+url                      : https://jaime-paul.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
