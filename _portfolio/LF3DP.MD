@@ -4,9 +4,9 @@ excerpt: "A motor-driven pump that can deliver a range of flow rates."
 header:
   teaser: /assets/img/Syringe Pump Img.png
 gallery:
-  - assets/img/syringe-pump-blueprint1.jpg
-  - assets/img/syringe-pump-blueprint2.jpg
-  - assets/img/syringe-pump-blueprint3.jpg
+  - image_path: assets/img/Slide-3.png
+  - image_path: assets/img/Slide-2.png
+  - image_path: assets/img/Slide-4.png
 ---
 
 # Features
