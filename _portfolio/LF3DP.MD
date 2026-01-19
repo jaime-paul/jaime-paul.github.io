@@ -4,9 +4,12 @@ excerpt: "A motor-driven pump that can deliver a range of flow rates."
 header:
   teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
+  - assets/img/syringe-pump-blueprint1.jpg
+  - assets/img/syringe-pump-blueprint2.jpg
+  - assets/img/syringe-pump-blueprint3.jpg
+  - assets/img/syringe-pump-blueprint4.jpg
+  - assets/img/syringe-pump-blueprint5.jpg
+  - assets/img/syringe-pump-blueprint6.jpg
 ---
 
 # Features
