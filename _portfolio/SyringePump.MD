@@ -24,9 +24,11 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 
 ## Off The Shelf Parts
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Component Name         | 
+| ---------------------- | 
+| Linear-Rod-8mmx200mm   | 
+| Bread Board            | 
+| Arduino UNO            | 
+| Arduino UNO            |
 
 {% include gallery caption="Syringe Pump Blueprints Gallery" %}
