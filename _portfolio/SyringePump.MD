@@ -24,7 +24,7 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 
 ## Off The Shelf Parts
 
-| Component Name                                          | 
+| Component Name             | Components   Name          |
 | --------------------------------------------------------| 
 | Linear-Rod-8mmx200mm       | Lock-Collar-Linear-Rod     |
 | Bread Board                | M3x10mm-Bolt               |
