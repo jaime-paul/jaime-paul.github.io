@@ -7,10 +7,6 @@ gallery1:
   - image_path: assets/img/syringe-pump-blueprint1.jpg
   - image_path: assets/img/syringe-pump-blueprint2.jpg
   - image_path: assets/img/syringe-pump-blueprint3.jpg
-gallery2:
-  - image_path: assets/img/syringe-pump-blueprint4.jpg
-  - image_path: assets/img/syringe-pump-blueprint5.jpg
-  - image_path: assets/img/syringe-pump-blueprint6.jpg
 
 
 ---
@@ -27,5 +23,4 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d43a06ce7ad3a361?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 {% include gallery.html images=page.gallery1 %}
-{% include gallery.html images=page.gallery2 %}
 {% include gallery1 caption="Syringe Pump Blueprints Gallery" %}
