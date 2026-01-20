@@ -6,7 +6,7 @@ title: "About Jaime Paul"
 
 ## Education
 
-Jaime prides herself on an interdisciplinary design practice. Her primary areas of focus include science and technology communication, UX/UI design, and digital fabrication. 
+Jaime is currently focusing on an interdisciplinary design. Her primary areas of focus include science and technology communication, UX/UI design, and digital fabrication. 
 
 * Vanderbilt Univeristy
   * Major: Communicating Science and Technology
