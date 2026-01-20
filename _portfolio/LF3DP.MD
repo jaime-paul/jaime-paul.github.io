@@ -5,8 +5,8 @@ header:
   teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
 gallery:
   - image_path: assets/img/syringe-pump-blueprint1.jpg
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
+  - image_path: assets/img/syringe-pump-blueprint2.jpg
+  - image_path: assets/img/syringe-pump-blueprint3.jpg
 
 ---
 
