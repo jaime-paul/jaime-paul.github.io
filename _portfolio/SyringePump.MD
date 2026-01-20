@@ -24,11 +24,26 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 
 ## Off The Shelf Parts
 
-| Component Name         | 
-| ---------------------- | 
-| Linear-Rod-8mmx200mm   | 
-| Bread Board            | 
-| Arduino UNO            | 
-| Arduino UNO            |
+| Component Name             | 
+| ---------------------------| 
+| Linear-Rod-8mmx200mm       | 
+| Bread Board                | 
+| Arduino UNO                | 
+| F688ZZ-Flanged-Ball-Bearing|
+| LED 4 pin RGB v1           |
+| LM8UU-Linear-Bearing       |
+| LED 4 pin RGB v1           |
+| Lead-Screw-TR8x8x250mm     |
+| Lock-Collar-Lead-Screw     |
+| Lock-Collar-Linear-Rod     |
+| M3x10mm-Bolt               |
+| M3x8-Thread-Forming-Screw  |
+| M5-Tee-Nut                 |
+| M5x8mm-Bolt                |
+| NEMA-17-Motor              |
+| Nut-tr8x8-4                |
+| Push Button Red v9 10mm    |
+| V-Slot 20x40x350           |
+| meanwell_RD-65A            |
 
 {% include gallery caption="Syringe Pump Blueprints Gallery" %}
