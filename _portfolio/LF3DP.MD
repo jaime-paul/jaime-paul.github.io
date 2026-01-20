@@ -7,6 +7,7 @@ gallery:
   - image_path: assets/img/syringe-pump-blueprint1.jpg
   - image_path: assets/img/syringe-pump-blueprint2.jpg
   - image_path: assets/img/syringe-pump-blueprint3.jpg
+gallery:
   - image_path: assets/img/syringe-pump-blueprint4.jpg
   - image_path: assets/img/syringe-pump-blueprint5.jpg
 
