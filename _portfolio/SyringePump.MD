@@ -2,7 +2,7 @@
 title: "Syringe Pump"
 excerpt: "A motor-driven pump that can deliver a range of flow rates."
 header:
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  teaser: /assets/img/Syringe Pump Img.png
 gallery:
   - image_path: assets/img/syringe-pump-blueprint1.jpg
   - image_path: assets/img/syringe-pump-blueprint2.jpg
