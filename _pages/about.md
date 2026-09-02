@@ -10,7 +10,7 @@ Jaime is currently focusing on an interdisciplinary design. Her primary areas of
 
 * Vanderbilt Univeristy
   * Major: Communicating Science and Technology
-  * Minors: Digital Fabrication, Data Science, Music, Italian
+  * Minors: Digital Fabrication, Music, Italian
 
 ## Technical Skills
 
@@ -24,4 +24,4 @@ Jaime works primarily in digital design and computation, using programming and d
 
 No publications to date
 
-<img src="/assets/img/Portfolio Picture.png" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/Portfolio Picture.png" alt="Jaime Paul" style="width:200px;"/>
