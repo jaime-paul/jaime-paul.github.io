@@ -60,27 +60,27 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 
 // Motor control pins into the arduino\
 #define STEP_PIN 4\
-#define DIR_PIN 3\
+#define DIR_PIN 3
 
-// Input pins into the arduino
-#define LATCHING_BUTTON_PIN 5
+// Input pins into the arduino\
+#define LATCHING_BUTTON_PIN 5\
 #define LIMIT_SWITCH_PIN 6
 
-// LED pins - input pins into the arduino
-#define LED_RED_PIN 8
-#define LED_GREEN_PIN 9
+// LED pins - input pins into the arduino\
+#define LED_RED_PIN 8\
+#define LED_GREEN_PIN 9\
 #define LED_BLUE_PIN 10
 
-// extra credit input pins into the arduino (non-latching button inputs)
-#define CCW_PIN 11 // clockwise and counterclockwise
+// extra credit input pins into the arduino (non-latching button inputs)\
+#define CCW_PIN 11 // clockwise and counterclockwise\
 #define CW_PIN 12
 
-float largeSyringeDiameter = 18.7; // measured internal diameter of syringe
+float largeSyringeDiameter = 18.7; // measured internal diameter of syringe\
 float smallSyringeDiameter = 14.6;
 
-float flowRate = 5; // mL/min [EDIT THIS VALUE to change pump speed]
-float syringeDiameter = smallSyringeDiameter; // smallSyringeDiameter for 10 mL, largeSyringeDiameter for 20 mL
-float distancePerRevolution = 8.0; // lead screw lead
+float flowRate = 5; // mL/min [EDIT THIS VALUE to change pump speed]\
+float syringeDiameter = smallSyringeDiameter; // smallSyringeDiameter for 10 mL, largeSyringeDiameter for 20 mL\
+float distancePerRevolution = 8.0; // lead screw lead\
 float stepsPerRevolution = 3200; // 3200 (16 steps) microstepping
 
 #include <AccelStepper.h>
