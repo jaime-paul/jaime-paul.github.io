@@ -56,29 +56,27 @@ float stepsPerRevolution = 3200; // 3200 (16 steps) microstepping
 
 #include <AccelStepper.h>
 
-AccelStepper stepper(AccelStepper::DRIVER, 4, 3); // used the STEP and DIR PIN input values
+AccelStepper stepper(AccelStepper::DRIVER, 4, 3);
 
-void setup() // initial set up: configuring pins to input_pullup/output
+void setup()
 {
   stepper.setMaxSpeed(1000);
-  // loop only runs once, so this just initializes values
   calculateStepperSpeed();
 
   pinMode(LED_RED_PIN, OUTPUT);
   pinMode(LED_GREEN_PIN, OUTPUT);
-  // LED outputs, buttons are INPUT_PULLUP
   pinMode(LED_BLUE_PIN, OUTPUT);
 
   pinMode(LATCHING_BUTTON_PIN, INPUT_PULLUP);
   pinMode(LIMIT_SWITCH_PIN, INPUT_PULLUP);
 
-  setColor(0, 255, 0); // green initially
+  setColor(0, 255, 0);
 
   pinMode(CCW_PIN, INPUT_PULLUP);
   pinMode(CW_PIN, INPUT_PULLUP);
 }
 
-void loop() // runs infinitely, constantly checking for changes in button states
+void loop()
 {
   if (digitalRead(LATCHING_BUTTON_PIN) == LOW &&
       digitalRead(LIMIT_SWITCH_PIN) == HIGH)
@@ -86,19 +84,19 @@ void loop() // runs infinitely, constantly checking for changes in button states
     // if latching button is pressed, run the pump
     calculateStepperSpeed();
     stepper.runSpeed();
-    setColor(0, 255, 0); // Green Color
+    setColor(0, 255, 0);
   }
 
   if (digitalRead(LATCHING_BUTTON_PIN) == HIGH &&
       digitalRead(LIMIT_SWITCH_PIN) == HIGH)
   {
     // if latching button is pressed again, pause the pump
-    setColor(255, 50, 0); // Yellow Color
+    setColor(255, 50, 0);
 
     if (digitalRead(CCW_PIN) == LOW)
     {
       // if paused and the non-latching (1) is pressed
-      setColor(255, 0, 255); // purple CCW
+      setColor(255, 0, 255);
 
       // reverse for easy reset
       stepper.setSpeed(900);
@@ -108,10 +106,10 @@ void loop() // runs infinitely, constantly checking for changes in button states
     if (digitalRead(CW_PIN) == LOW)
     {
       // same thing for the other non-latching (2)
-      setColor(0, 0, 255); // blue CW
+      setColor(0, 0, 255);
 
       // forward if reversed too far
-      stepper.setSpeed(-900); // neg because this is the forward direction
+      stepper.setSpeed(-900);
       stepper.runSpeed();
     }
   }
@@ -119,8 +117,8 @@ void loop() // runs infinitely, constantly checking for changes in button states
   if (digitalRead(LATCHING_BUTTON_PIN) == LOW &&
       digitalRead(LIMIT_SWITCH_PIN) == LOW)
   {
-    // If the limit switch is triggered, stop the pump, it's empty
-    setColor(255, 0, 0); // red Color
+    // If the limit switch is triggered, stop the pump
+    setColor(255, 0, 0);
   }
 
   if (digitalRead(LATCHING_BUTTON_PIN) == HIGH &&
@@ -137,7 +135,6 @@ void loop() // runs infinitely, constantly checking for changes in button states
 
 void setColor(int redValue, int greenValue, int blueValue)
 {
-  // simple set color function to make setting RGB values easier in void loop
   analogWrite(LED_RED_PIN, redValue);
   analogWrite(LED_GREEN_PIN, greenValue);
   analogWrite(LED_BLUE_PIN, blueValue);
@@ -145,16 +142,15 @@ void setColor(int redValue, int greenValue, int blueValue)
 
 void calculateStepperSpeed()
 {
-  // calculating stepper speed (see calculation section for explanation)
   float syringeArea = 3.14159 * pow(syringeDiameter / 2.0, 2);
   float flowRateMmCubed = flowRate * 1000.0;
   float linearSpeed = flowRateMmCubed / syringeArea;
 
   float stepperSpeed =
     (linearSpeed / distancePerRevolution) *
-    stepsPerRevolution / 60.0; // steps per second
+    stepsPerRevolution / 60.0;
 
-  stepper.setSpeed(-stepperSpeed); // neg because this is the forward direction
+  stepper.setSpeed(-stepperSpeed);
 }
 
 </details>
