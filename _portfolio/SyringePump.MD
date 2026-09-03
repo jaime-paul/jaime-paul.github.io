@@ -25,6 +25,35 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811d43a06ce7ad3a361?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+## Off The Shelf Parts
+
+| Component Name             | 
+| ---------------------------| 
+| Linear-Rod-8mmx200mm       |
+| Bread Board                |
+| Arduino UNO                |
+| F688ZZ-Flanged-Ball-Bearing|
+| LED 4 pin RGB v1           |
+| LM8UU-Linear-Bearing       |
+| LED 4 pin RGB v1           |
+| Lead-Screw-TR8x8x250mm     |
+| Lock-Collar-Lead-Screw     | 
+| meanwell_RD-65A            |
+| V-Slot 20x40x350           |
+| Push Button Red v9 10mm    |
+| Nut-tr8x8-4                |
+| NEMA-17-Motor              |
+| M5x8mm-Bolt                |
+| M5-Tee-Nut                 |
+| M3x8-Thread-Forming-Screw  |
+| M3x10mm-Bolt               |
+| Lock-Collar-Linear-Rod     |
+
+
+## Blueprints
+
+{% include gallery caption="Syringe Pump Blueprints Gallery" %}
+
 ## Arduino Code
 
 <details> <summary><strong>View Here</strong></summary>
@@ -156,31 +185,4 @@ void calculateStepperSpeed()
 </details>
 
 
-## Off The Shelf Parts
 
-| Component Name             | 
-| ---------------------------| 
-| Linear-Rod-8mmx200mm       |
-| Bread Board                |
-| Arduino UNO                |
-| F688ZZ-Flanged-Ball-Bearing|
-| LED 4 pin RGB v1           |
-| LM8UU-Linear-Bearing       |
-| LED 4 pin RGB v1           |
-| Lead-Screw-TR8x8x250mm     |
-| Lock-Collar-Lead-Screw     | 
-| meanwell_RD-65A            |
-| V-Slot 20x40x350           |
-| Push Button Red v9 10mm    |
-| Nut-tr8x8-4                |
-| NEMA-17-Motor              |
-| M5x8mm-Bolt                |
-| M5-Tee-Nut                 |
-| M3x8-Thread-Forming-Screw  |
-| M3x10mm-Bolt               |
-| Lock-Collar-Linear-Rod     |
-
-
-## Blueprints
-
-{% include gallery caption="Syringe Pump Blueprints Gallery" %}
