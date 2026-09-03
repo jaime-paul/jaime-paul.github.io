@@ -180,4 +180,7 @@ void calculateStepperSpeed()
 | M3x10mm-Bolt               |
 | Lock-Collar-Linear-Rod     |
 
+
+## Blueprints
+
 {% include gallery caption="Syringe Pump Blueprints Gallery" %}
