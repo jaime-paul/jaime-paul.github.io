@@ -58,9 +58,9 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 
 <details> <summary><strong>View Here</strong></summary>
 
-// Motor control pins into the arduino
-#define STEP_PIN 4
-#define DIR_PIN 3
+// Motor control pins into the arduino\
+#define STEP_PIN 4\
+#define DIR_PIN 3\
 
 // Input pins into the arduino
 #define LATCHING_BUTTON_PIN 5
