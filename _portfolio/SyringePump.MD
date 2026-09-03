@@ -56,9 +56,30 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 
 ## Arduino Code
 
-<a href="/assets/img/arduino_code.txt" target="_blank">
-  View Arduino Code
-</a>
+<pre><code id="arduino-code">Loading code...</code></pre>
+
+<script>
+fetch('/assets/img/arduino_code.txt')
+  .then(response => response.text())
+  .then(code => {
+    document.getElementById('arduino-code').textContent = code;
+  });
+</script>
+
+<style>
+#arduino-code {
+  display: block;
+  background-color: #f6f8fa;
+  padding: 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292f;
+}
+</style>
 
 
 
