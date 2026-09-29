@@ -61,7 +61,7 @@ Jaw Capacity 30mm
 
 {% include gallery caption="Syringe Pump Blueprints Gallery" %}
 
-(Pliers in motion)[https://youtube.com/shorts/6TB6SfcN4T0]
+[Pliers in motion](https://youtube.com/shorts/6TB6SfcN4T0)
 
 
 
