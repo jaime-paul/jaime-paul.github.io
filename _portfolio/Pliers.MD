@@ -57,6 +57,7 @@ Throughout the design process, I had to consider the dimensions of the pivot, th
 ## Plier Specifications
 
 Jaw Length - 20mm
+
 Jaw Capacity 30mm
 
 ## Blueprints
