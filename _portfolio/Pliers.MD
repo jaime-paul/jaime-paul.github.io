@@ -57,11 +57,11 @@ Jaw Length - 20mm
 
 Jaw Capacity 30mm
 
-## Blueprints
+## Gallery
 
 {% include gallery caption="Syringe Pump Blueprints Gallery" %}
 
-## Arduino Code
+(Pliers in motion)[https://youtube.com/shorts/6TB6SfcN4T0]
 
 
 
