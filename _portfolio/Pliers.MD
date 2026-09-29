@@ -4,12 +4,9 @@ excerpt: "3d printed needle nose pliers."
 header:
   teaser: /assets/img/Syringe Pump Img.png
 gallery:
-  - image_path: assets/img/syringe-pump-blueprint1.jpg
-  - image_path: assets/img/syringe-pump-blueprint2.jpg
-  - image_path: assets/img/syringe-pump-blueprint3.jpg
-  - image_path: assets/img/syringe-pump-blueprint4.jpg
-  - image_path: assets/img/syringe-pump-blueprint5.jpg
-  - image_path: assets/img/syringe-pump-blueprint6.jpg
+  - image_path: assets/img/open pliers.jpg
+  - image_path: assets/img/closed pliers.jpg
+  - image_path: assets/img/plier concept.jpg
 
 
 ---
