@@ -16,7 +16,12 @@ gallery:
 
 ## About
 
-The Syringe Pump a motor-driven pump that can deliver a range of flow rates. The goal is for a lead screw to turn and as a nut traverses the screw, a plunger is pushed forward, which ejects a proportional amount of liquid contained in the syringe. The materials provided were a stepper motor, lead screw, motor coupler, linear rod, aluminum extrusion, power supply, arduino, stepper driver, breadboard, latching push button, limit switch, LED light, and various electrical materials to connect components. Syringe pumps are typically used in laboratory or medical settings where they can dispense fluids at a precise rate. Syringe pumps only require a handful of parts and depend on simple electronic control systems, but can still cost several hundred dollars to purchase. This means that being able to design, 3D print, and program a syringe pump can save hundreds of dollars.
+This pair of needle-nose pliers utilizes print-in-place 3D printed parts. These pliers are capable of picking up through hole resistors. They utilize a spring component which allows them to return to an open position when not in use. Print-in-place is a unique benefit to 3D printing that allows you to create multiple components that work immediately after they come off the print bed, without requiring additional assembly. Prints that use print-in-place use multiple different methods of hinges and linkages to connect the various parts together.
+
+Print-in-place has many applications beyond my project. It can be used to create functional mechanisms such as pliers, as well as children's toys that require some sense of flexibility. For example, this print-in-place articulated snake puzzle uses multiple connected sections to create a flexible toy. Print-in-place can also be used for functional tools, such as pliers which I created for this project, which use a single printed structure to create a working pair of pliers.
+
+One of the most useful applications of print-in-place is the ability to create hinges and other moving joints. These mechanisms heavily depend on clearance between parts which makes the materials that you choose to print with all the more important. PLA and TPU can work well together when different levels of flexibility are needed. PLA provides a rigid structure, while TPU can be used for flexible hinges or joints. This combination allows the rigid portions of a design to maintain their shape while the TPU provides movement that PLA alone would not be able to provide.
+
 
 ## Operating Instructions
 
