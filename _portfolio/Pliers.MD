@@ -2,7 +2,7 @@
 title: "Print-in-Place Pliers"
 excerpt: "3d printed needle nose pliers."
 header:
-  teaser: /assets/img/Syringe Pump Img.png
+  teaser: /assets/img/pliers_header.jpg
 gallery:
   - image_path: assets/img/open pliers.jpg
   - image_path: assets/img/closed pliers.jpg
