@@ -15,7 +15,7 @@ feature_row:
     title: "Syringe Pump"
     excerpt: "A motor-driven pump that can deliver a range of flow rates"
   - image_path: assets/img/plier_header.jpg
-    alt: "Print-in-Place Pliers"
+    alt: "plier header"
     title: "Print-in-Place Pliers"
     excerpt: "Needle nose pliers"    
 ---
