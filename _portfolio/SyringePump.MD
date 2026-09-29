@@ -51,9 +51,10 @@ To begin, the desired syringe (10ml or 20ml) must be filled with liquid and its 
 | Lock-Collar-Linear-Rod     |
 
 
-## Blueprints
+## Product Specifications
 
-{% include gallery caption="Syringe Pump Blueprints Gallery" %}
+Jaw length - 20 mm
+Jaw capacity - 30 mm
 
 ## Arduino Code
 
